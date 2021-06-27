@@ -1,0 +1,116 @@
+//                                    LE C
+/*
+////////////// premiere creation en C //////////////
+
+int main (void)
+{
+  printf("Hello world ! :)\n");
+  return 0;
+}
+*/
+
+////////////// Utiliser invite de comande //////////////
+
+// > cd C:\direction\du\Dossier\source
+
+// > gcc Programe.c -o nom_du_programe
+
+// > Nom_du_programe.exe
+
+/*
+////////////// les variables //////////////
+// Signés
+char	/ ?	/ ?
+signed char	/ 1 octet	/ -128 à 127
+short	/ 2 octets	/ -32 768 à 32 767
+int	/ 2 octets / 4 octets	-32 768 / -2 147 483 648 à 32 767 / 2 147 483 647
+long	/ 4 octets	/ -2 147 483 648 à 2 147 483 647
+long long	/ 8 octets	/ -9 223 372 036 854 775 808 à 9 223 372 036 854 775 807
+float	/ 4 octets	/ -3,4.1038 à 3,4.1038
+double	/ 8 octets	/ -1,7.10308 à 1,7.10308
+long double	/ 10 octets	/ -1,1.104932 à 1,1.104932char	?	?
+signed char	/ 1 octet	/ -128 à 127
+short	/ 2 octets	/ -32 768 à 32 767
+int	/ 2 octets / 4 octets	-32 768 / -2 147 483 648 à 32 767 / 2 147 483 647
+long	/ 4 octets	/ -2 147 483 648 à 2 147 483 647
+long long	/ 8 octets	/ -9 223 372 036 854 775 808 à 9 223 372 036 854 775 807
+float	/ 4 octets	/ -3,4.1038 à 3,4.1038
+double	/ 8 octets	/ -1,7.10308 à 1,7.10308
+long double	/ 10 octets	/ -1,1.104932 à 1,1.104932
+// Non Signés
+unsigned char	/ 1 octet /	0 à 255
+unsigned short	/ 2 octets / 0 à 65 535
+unsigned int	/ 2 octets / 4 octets	0 à 65 635 / 4 294 967 295
+unsigned long	/ 4 octets	/ 0 à 4 294 967 295
+unsigned long long	/ 8 octets	/ 0 à 18 446 744 073 709 551 615
+
+
+int main (void)
+{
+  //Déclaration de variables de type entier (int)
+  //regle de base en C: declarer toute le variable en debut de fonction
+
+  int aire_du_carre = 0;
+  float prix_reservation = 125.99;
+  signed char = 65 ; //table Ascii
+  signed char = 'A' ;
+
+  return 0;
+}*/
+
+////////////// Données Clavier//////////////
+
+/*
+int ma_variable = 15
+ma_variable = contenu de la variable (15)
+&ma_variable = Adresse ou est stockée la variable
+
+
+  //int age_utilisateur = 0;
+
+  printf("Quel age avez-vous ? ");
+  scanf("%d", &age_utilisateur);
+
+  printf("vous avez %d ans\n", age_utilisateur);
+
+  //signed char lettre = 'A';
+
+  printf("Entrez une lettre : ");
+  scanf("%c", &lettre);
+
+  printf("Lettre choisie => %c\n", lettre);
+
+  ////////////// Opérateurs //////////////
+  /*
+    + (ADDITION)
+    - (SOUSTRACTION)
+    * (MULTIPLICATION)
+    / (DIVISION) -> 5 / 2 = 2 quotient
+    % (MODULO) -> 5 % 2 = 1 reste
+
+    [VAR = VAR + X] <---> [VAR += X]
+    [VAR = VAR - X] <---> [VAR -= X]
+    [VAR = VAR * X] <---> [VAR *= X]
+    [VAR = VAR / X] <---> [VAR /= X]
+    [VAR = VAR % X] <---> [VAR %= X]
+    -------------------------------------
+    VAR += 1 <---> VAR++ ++VAR
+    VAR -= 1 <---> VAR-- --VAR
+
+  */
+
+  /* int calcul = 8*2;
+  printf("%d\n", calcul ); */
+
+  /* printf("%d\n", 8*2 ); */
+
+  /*int lvl_player = 0;
+  printf("choix lvl : ");
+  scanf("%d", &lvl_player);
+
+  printf("level = %d\n", lvl_player);
+
+  lvl_player++;
+  printf("Next Level : %d\n", lvl_player);
+
+  return 0;*/
