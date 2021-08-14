@@ -19,29 +19,33 @@ int main (void)
 
 /*
 ////////////// les variables //////////////
-// Signés
+// Signés (negatif ou positif)
+
 char	/ ?	/ ?
 signed char	/ 1 octet	/ -128 à 127
+
 short	/ 2 octets	/ -32 768 à 32 767
+
 int	/ 2 octets / 4 octets	-32 768 / -2 147 483 648 à 32 767 / 2 147 483 647
+
 long	/ 4 octets	/ -2 147 483 648 à 2 147 483 647
 long long	/ 8 octets	/ -9 223 372 036 854 775 808 à 9 223 372 036 854 775 807
+
 float	/ 4 octets	/ -3,4.1038 à 3,4.1038
-double	/ 8 octets	/ -1,7.10308 à 1,7.10308
-long double	/ 10 octets	/ -1,1.104932 à 1,1.104932char	?	?
-signed char	/ 1 octet	/ -128 à 127
-short	/ 2 octets	/ -32 768 à 32 767
-int	/ 2 octets / 4 octets	-32 768 / -2 147 483 648 à 32 767 / 2 147 483 647
-long	/ 4 octets	/ -2 147 483 648 à 2 147 483 647
-long long	/ 8 octets	/ -9 223 372 036 854 775 808 à 9 223 372 036 854 775 807
-float	/ 4 octets	/ -3,4.1038 à 3,4.1038
+
 double	/ 8 octets	/ -1,7.10308 à 1,7.10308
 long double	/ 10 octets	/ -1,1.104932 à 1,1.104932
-// Non Signés
+
+// Non Signés (uniquement positif)
+
 unsigned char	/ 1 octet /	0 à 255
+
 unsigned short	/ 2 octets / 0 à 65 535
+
 unsigned int	/ 2 octets / 4 octets	0 à 65 635 / 4 294 967 295
+
 unsigned long	/ 4 octets	/ 0 à 4 294 967 295
+
 unsigned long long	/ 8 octets	/ 0 à 18 446 744 073 709 551 615
 
 
@@ -114,3 +118,142 @@ ma_variable = contenu de la variable (15)
   printf("Next Level : %d\n", lvl_player);
 
   return 0;*/
+
+  ////////////// Conditions //////////////
+
+    /*
+    == : égale à
+    != : différent de
+    <  : plus petit que
+    >  : plus grand que
+    <= : plus petit OU egale
+    >= : plus grand Ou egale
+
+    && : ET
+    || : OU
+    !  : Not (n'est pas)
+    */
+    /*
+    if(){} : si (condition) {Alors}
+    else{} : Sinon {Alors}
+    else if(){} : Sinon si (condition) {Alors}
+    switch(){} a utiliser si plus de 3 else if
+
+    Condition Terner:
+
+    (Condition) ? Vrais : Faux ;
+
+    */
+
+    /*int anda = 0;
+
+    puts("Anda a un cancer ?\n1:oui \n2:non");
+    scanf("%d",&anda);
+
+    (anda == 2) ? puts("en effet mon sauce ! elle est trop forte pour le cancer") : puts("Mais t'es un baise toi ! vieu pet ! elle lui a niquee sa mere au cancer whs !");*/
+
+    /*int age = 375;
+
+    switch (age){
+      case 0:
+        printf("tu as 0 ans");
+        break;
+
+        case 15:
+          printf("tu as 15 ans");
+          break;
+
+      default:
+          printf("t'as pas d'age sale rat");
+          break;
+    }*/
+
+    /*int age = 0;
+
+    printf("quel age as-tu ? ");
+    scanf("%d",&age);
+
+    if(age<1){
+      printf("SALE MYTHO VA! -_-' ");
+    }
+    else if(age>1 && age<=5){
+      printf("je pense tu mytho mais tranquil ! =_=");
+    }
+    else if(age>5 && age<=50){
+      printf("C'est cool ca Bro x_x ");
+    }
+    else if(age>50 && age<=100){
+      printf("T'es plus de preimiere fraicheur °_° ");
+    }
+    else if(age>100){
+      printf("T'es vieux sa mere !o! ");
+    }*/
+
+    /*int nombre = 0;
+
+    printf("choisir un nombre en 1 et 10 : ");
+    scanf("%d", &nombre);
+
+    if(nombre < 5)
+    {
+      printf("%d est inferieur a 5.\n", nombre);
+    }
+    else
+    {
+      if(nombre == 5)
+      {
+        printf("%d est egale a 5.\n", nombre);
+      }
+      else
+      {
+        if(nombre > 5)
+        {
+          printf("%d est superieur a 5.\n", nombre);
+        }
+      }
+    }*/
+
+    /*int nombre = 0;
+
+    printf("choisir un nombre en 1 et 10 : ");
+    scanf("%d", &nombre);
+
+    if(nombre < 5)
+    {
+      printf("%d est inferieur a 5.\n", nombre);
+    }
+    else if(nombre == 5)
+      {
+        printf("%d est egale a 5.\n", nombre);
+      }
+    else if(nombre > 5)
+      {
+          printf("%d est superieur a 5.\n", nombre);
+      }*/
+
+      ////////////// Boucles //////////////
+    /*
+        do{evenement} = fait
+        while(condition){evenement} = tant que
+        for(initialisation ; condition ; incrementation/decrementation){evenement} = pour
+    */
+    /*  int i ;
+
+        for (i=0 ; 1<5 ;i++ ) {
+          printf("Tu es tres beau\n", );
+        }*/
+
+    /*  int i = 0 ;
+
+        do{
+          printf("Tu es tres beau\n", );
+          i++;
+        }
+        while (i < 5);*/
+
+    /*  int i = 0 ;
+
+        while (i < 5){
+          printf("Tu es tres beau\n", );
+          i++;
+        }*/
